@@ -49,6 +49,12 @@ The Hong Kong University of Science and Technology, Fudan University
 | $\lambda_c$ | 0 |  0 |  0 |  0.05 |  0.05 | 
 
 
+**Hyperparameters for GMM**
+
+|    n_components         | max_iter | tol | reg_covar |
+| ------------- | ------------- | ------------- | ------------- |
+| 3 | 10 | 1e-2 | 5e-4 |
+
 ## Citation
 ```
 @article{hou2024qmix,
