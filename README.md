@@ -30,7 +30,23 @@ The Hong Kong University of Science and Technology, Fudan University
 | $\Omega(0)$ | 0.3 | 0.3 | 0.3 | 0.1 | 0 |
 | $\lambda_c$ | 0 |  0.01 | 0.025 | 0.025 | 0.05 |
 
+**Hyperparameters for asymmetric label noise on DDR**
 
+| Mis-L ratio | 15% | 15% | 35% | 55% | 
+| ------------- | ------------- | ------------- | ------------- |------------- |
+| Mis-H ratio | 30% | 50% | 20% | 20% |
+| $\Omega(0)$ | 0.3 | 0.3 | 0.1 | 0.1 |
+| $\lambda_c$ | 0.025 | 0.025 | 0.01 | 0.01 |
+
+
+**Hyperparameters for real-world datasets**
+
+|             | DRTiD | DeepDRiD | EyeQ | DRAC | ODIR |
+| ------------- | ------------- | ------------- | ------------- |------------- |------------- |
+| Mis-L ratio | 25.8% | 52.0% | 18.5% | 7.5% | $\checkmark$ |
+| Mis-H ratio | 31.5% | $\checkmark$ | $\checkmark$ | $\checkmark$ | $\checkmark$ |
+| $\Omega(0)$ | 0.3 | 0.8 | 0.8 | 0.8 | 0.8 |
+| $\lambda_c$ | 0 |  0 |  0 |  0.05 |  0.05 | 
 
 
 ## Citation
