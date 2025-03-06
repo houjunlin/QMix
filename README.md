@@ -19,6 +19,20 @@ Junlin Hou, Jilan Xu, Rui Feng, Hao Chen
 
 The Hong Kong University of Science and Technology, Fudan University
 
+
+## Hyperparameters for symmetric label noise on DDR
+
+| ------------- | ------------- |
+| Mis-L ratio | 15% | 15% | 15% | 45% | 75% |
+| Mis-H ratio | 20% | 50% | 80% | 20% | 20% |
+| $\Omega(0)$ | 0.3 | 0.3 | 0.3 | 0.1 | 0 |
+| $\lambda_c$ | 0 |  0.01 | 0.025 | 0.025 | 0.05 |
+
+
+
+
+
+
 ## Citation
 ```
 @article{hou2024qmix,
